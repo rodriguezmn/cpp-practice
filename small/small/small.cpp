@@ -6,6 +6,7 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    std::cout << "Mars is " << 63.79 << " million km away." << '\n';
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
