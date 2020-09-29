@@ -2,11 +2,19 @@
 //
 
 #include <iostream>
+using std::cout;
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Mars is " << 63.79 << " million km away." << '\n';
+    cout << "Hello World!\n";
+    cout << "Mars is " << 63.79 << " million km away." << '\n';
+
+    cout << '\n' << '\n';
+    int i = 2 + 2;
+    i = i * 3;
+    cout << i << '\n';
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
