@@ -3,6 +3,7 @@
 
 #include <iostream>
 using std::cout;
+using std::cin;
 
 int main()
 {
@@ -14,7 +15,10 @@ int main()
     i = i * 3;
     cout << i << '\n';
 
-
+    
+    cout << "Enter a number: ";
+    cin >> i;
+    cout << '\n' << i << '\n';
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
