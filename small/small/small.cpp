@@ -5,8 +5,17 @@
 using std::cout;
 using std::cin;
 
+// Functions declaration
+// This function was defined in a separtate file and needs to be declared here
+// before being called
+int add(int x, int y);
+
+
 int main()
 {
+    int a; // To contain interger 
+    int b; // To contain interger
+
     cout << "Hello World!\n";
     cout << "Mars is " << 63.79 << " million km away." << '\n';
 
@@ -19,6 +28,14 @@ int main()
     cout << "Enter a number: ";
     cin >> i;
     cout << '\n' << i << '\n';
+
+    cout << "Add two numbers a + b. Enter number a: ";
+    cin >> a;
+    cout << '\n' << "Enter number b: ";
+    cin >> b;
+
+    cout << "a + b is " << add(a, b);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
