@@ -12,11 +12,11 @@ int main()
     string secondString;    // To contain second string
 
     cout << "Enter the first string: ";
-    cin >> firstString;
+    getline(cin, firstString);
 
     cout << "Enter second string: ";
-    cin >> secondString;
-    cout << '\n';
+    getline(cin, secondString);
+    cout << '\n'; 
 
     if (firstString.length() == secondString.length())
     {
