@@ -5,11 +5,7 @@
 using std::cout;
 using std::cin;
 
-// Functions declaration
-// This function was defined in a separtate file and needs to be declared here
-// before being called
-int add(int x, int y);
-
+#include "Functions.h"
 
 int main()
 {
