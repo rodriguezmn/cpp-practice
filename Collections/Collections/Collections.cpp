@@ -91,6 +91,9 @@ int main()
 	int threes = count(begin(nums), end(nums), 3);
 	cout << "Vector of ints has " << threes << " elements with value 3" << '\n';
 
+
+	// words[0] is a collection of letters. The same member functions can be applied to it
+
 	int tees = count(begin(words[0]), end(words[0]), 't');
 	cout << "First word has " << tees << " letter t's" << '\n';
 
